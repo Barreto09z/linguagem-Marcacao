@@ -1,0 +1,98 @@
+.Nome_Loja{
+    background-color: rgb(0, 0, 0); color: aliceblue;
+    margin: 0 10px 0 0;
+    text-align: center;
+}
+
+.login{
+margin-left: 150px;
+}
+
+.Nike_drifit{
+    width: 325px;
+    height: 325px;
+}
+
+.Nike_short{
+    width: 325px;
+    height: 325px;
+}
+
+.Dunk_Nike{
+    width: 325px;
+    height: 325px;
+}
+
+.ConjuntoBlk{
+    width: 325px;
+    height: 325px;
+}
+
+.input-nome{
+    /* Remover as bordas */
+    background-color: #aaa;
+    border: none;
+    border-radius: 2px;
+    margin-left: -5px;
+    /* definir opacidade do campo */
+    opacity: 70%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.formulario {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.botao {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.cdstr {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.button input {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.cadastrar{
+    background-color: #218838;
+}

@@ -65,3 +65,62 @@ p{
     text-shadow: 5px 2px 5px rgba(212, 14, 57, 0.9);
     
 }
+
+.checar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    /* Modifica o tipo do cursor */
+    cursor: pointer;
+    /* Limpar configuração aparencia */
+    appearance: none;
+    background-color: aliceblue;
+    border: 2px solid #00ff08;
+    border-radius: 5px;
+}
+
+.checar:checked{
+    background-color: #00ff08;
+}
+
+.email{
+    width: 300px;
+    padding: 5px;
+    margin-left: 5px;
+    border: 2px solid white;
+}
+
+.selecao{
+    appearance: none;
+    width: 300px;
+    padding: 4px;
+    font-size: 16px;
+    color: #4a3f3f;
+    background-color: aliceblue;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* Sombra no input */
+    box-shadow: 0 2px 5px color rgba(0, 0, 0, 0.8);
+}
+
+.radio{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d3421d;
+    border-radius: 50%;
+}
+/* Pseudoclasse, quando o estado do objeto mudar ele atribui outras propriedades */
+.radio:checked{
+    background-color: #d3421d;
+    border-color: #50d31d;
+}
+
+
+
+
+
+
+
+/* Colocar depois */
+/* Linha 24: placeholder="(00) 00000-0000" required */
