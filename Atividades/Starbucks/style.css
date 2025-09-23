@@ -1,7 +1,6 @@
-
 :root{
-    --cor-vermelha-ifood: #ea1d2c;
-    --cor-cinza-texto: #565656;
+    --cor-vermelha-ifood: #006616;
+    --cor-cinza-texto: #000000;
     --cor-cinza-borda: #c7c7c7;
     --cor-cinza-fundo: #ffffff;
 }
@@ -25,12 +24,16 @@
 }
 
 .LOGO{
-    height: 5vh;
+    height: 11vh;
+}
+
+.ponto{
+    height: 3vh;
 }
 
 .Container{
     /* Propriedade define a largura maxima que ele pode atingir */
-    max-width: 1200px;
+    max-width: 1700px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -42,6 +45,12 @@
     gap: 20px;
 }
 
+.esquerda{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
 .item{
     /* Remove decoração da tag a */
     text-decoration: none;
@@ -50,20 +59,29 @@
     font-weight: 600;
     padding: 8px 0;
     border-bottom: 3px solid transparent;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.encontrar{
+    text-decoration: none;
+    color: var(--cor-cinza-texto);
+    font-weight: 600;
+    padding: 8px 0;
+
+      font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .item:focus,
 .item:hover{
     color: var(--cor-vermelha-ifood);
     border-bottom-color: var(--cor-vermelha-ifood);
-}
-
-.buscar{
-    padding: 10px;
-    
-    border: 1px solid var(--cor-cinza-borda);
-    border-radius: 8px;
-    width: 10rem;
 }
 
 .localizacao{
@@ -85,17 +103,36 @@
 }
 
 .criar-conta{
+    border: 2px solid black;
+    border-radius: 20px;
     text-decoration: none;
     color: var(--cor-vermelha-ifood);
     font-size: 600;
+    padding: 8px;
+
+      font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .botao-entrar{
     background-color: var(--cor-vermelha-ifood);
     color: var(--cor-cinza-fundo);
     border: none;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 10px 20px;
     font-weight: 600;
     cursor: pointer;
+
+      font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.direita{
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
 }

@@ -115,3 +115,88 @@ p{
     background-color: #d3421d;
     border-color: #50d31d;
 }
+
+
+
+.card{
+    width: 300px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: tranform 0.3s ease;
+
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-imagem{
+    display: flex;
+    flex-direction:row;
+}
+
+.card-imagem > img{
+    max-width: 100%;
+    height: 150px;
+    
+}
+
+.card-rodape{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-rodape2{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-botao{
+    /* remove a decoração da tag a */
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border-radius: 4px;
+    padding: 5px 6px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    text-align: center;
+}
+.card-botao:hover{
+    background-color: pink;
+    display: flex;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+    height: 500px;
+    margin-left: 5px;
+        display: flex;
+    justify-content: center; 
+}
+
+.titulo{
+        text-align: center;
+}
+
+.IMG{
+    width: 100px;
+}
+
+.IMG2{
+    width: 100px;
+}
