@@ -99,3 +99,24 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.card-produtos{
+    display: flex;
+    flex-direction: column;
+    width: 7vw;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card-produtos:hover{transform: translateY(-5px);}
+
+.card-produtos img{
+
+}
+
+.secao-produtos{
+    display: flex;
+    gap: 5px;
+    overflow-x: scroll;
+}
+.secao-produtos::-webkit-scrollbar{visibility: hidden;}
