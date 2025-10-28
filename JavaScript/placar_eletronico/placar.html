@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar Eletrônico</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./script.js"></script>
+</head>
+<body class="bg-gray-800 text-white flex flex-col items-center justify-center p-4">
+    <header class="mb-8 text-center">
+
+        <h1 class="text-4xl md:text-5xl font-bold text-white">Placar Eletrônico</h1>
+    </header>
+
+    <section class="bg-gray-800 text-white flex rounded-lg shadow-2xl items-center justify-around gap-40 p-4">
+        <div class="text-center flex flex-col items-center">
+            <p class="text-2xl font-semibold mb-2">Casa</p>
+            <p id="pt1" class="text-6xl font-bold text-yellow-400 mb-4">0</p>
+            <div>
+            <button onclick="ponto1()" class="bg-blue-500  text-white rounded-lg p-3">Gol</button>
+            <button onclick="pontom1()" class="bg-red-500  text-white rounded-lg p-3">-</button>
+            </div>
+        </div>
+
+        <div class="text-center flex flex-col items-center">
+            <button onclick="zerar()" class="bg-gray-400  text-white rounded-lg p-3">Zerar</button>
+        </div>
+
+        <div class="text-center flex flex-col items-center">
+            <p class="text-2xl font-semibold mb-2">Visitante</p>
+            <p id="pt2" class="text-6xl font-bold text-yellow-400 mb-4">0</p>
+            <div>
+            <button onclick="ponto2()" class="bg-blue-500  text-white rounded-lg p-3">Gol</button>
+            <button onclick="pontom2()" class="bg-red-500  text-white rounded-lg p-3">-</button>
+            </div>
+        </div>
+    </section>
+
+
+     <header class="mb-8 text-center">
+
+        <h1 class="text-4xl md:text-5xl font-bold text-white">Placar Eletrônico Basquete</h1>
+    </header>
+        <section class="bg-gray-800 text-white flex rounded-lg shadow-2xl items-center justify-around gap-40 p-4">
+        <div class="text-center flex flex-col items-center">
+            <p class="text-2xl font-semibold mb-2">Casa</p>
+            <p id="pt1b" class="text-6xl font-bold text-white mb-4">0</p>
+            <div>
+            <button onclick="ponto1b(1)" class="bg-blue-500  text-white rounded-lg p-3">1 Ponto</button>
+            <button onclick="ponto12(2)" class="bg-blue-500  text-white rounded-lg p-3"> 2 Ponto</button>
+            <button onclick="ponto13(3)" class="bg-blue-500  text-white rounded-lg p-3">3 Ponto</button>
+            <button onclick="pontom1()" class="bg-red-500  text-white rounded-lg p-3">-</button>
+            </div>
+        </div>
+
+        <div class="text-center flex flex-col items-center">
+            <button onclick="zerarb()" class="bg-gray-400  text-white rounded-lg p-3">Zerar</button>
+        </div>
+
+        <div class="text-center flex flex-col items-center">
+            <p class="text-2xl font-semibold mb-2">Visitante</p>
+            <p id="pt2b" class="text-6xl font-bold text-white mb-4">0</p>
+            <div>
+            <button onclick="ponto2b(1)" class="bg-blue-500  text-white rounded-lg p-3">1 Ponto</button>
+            <button onclick="ponto22(2)" class="bg-blue-500  text-white rounded-lg p-3">2 Ponto</button>
+            <button onclick="ponto23(3)" class="bg-blue-500  text-white rounded-lg p-3">3 Ponto</button>
+            <button onclick="pontom2()" class="bg-red-500  text-white rounded-lg p-3">-</button>
+            </div>
+        </div>
+        </section>
+</body>
+</html>
