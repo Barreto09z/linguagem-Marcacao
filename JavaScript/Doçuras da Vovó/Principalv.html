@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doçuras do Barreto</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script defer src="./scriptv.js"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-purple-600 shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">Doçuras do Barreto Açucarado</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <div class="relative flex gap-4">
+                    <!-- menu  -->
+                    <a href="" class="text-white hover:text-gray-600">Principal</a>
+                    <a href="" class="text-white hover:text-gray-600">Favoritos</a>
+                    <a href="" class="text-white hover:text-gray-600">Promoções</a>
+                    <div class="relative">
+                    <!-- menu  -->
+                     <button id="gatilho-dropdown-web" class="flex items-center text-white hover:text-gray-600">
+                        Minha conta
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                     <div id="menu-dropdown-web" class="hidden absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">
+                        <a href="" class="block px-4 py-2 text-sm text-gray-400 hover:bg-blue-50">Meus pedidos</a>
+                        <a href="" class="block px-4 py-2 text-sm text-gray-400 hover:bg-blue-50">Configurações</a>
+                        <a href="" class="block px-4 py-2 text-sm text-gray-400 hover:bg-blue-50">Sair</a>
+                     </div>
+                    </div>
+                </div>
+            <button id="btn-hamburguer" class="md:hidden text-gray-600 focus:outline-none">
+                <!-- menu hamburguer  -->
+                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path> </svg>
+            </button>
+        </nav>
+        <div id="menu-mobile" class="hidden md:hidden bg-white shadow-lg">
+            <div>
+                 <button id="gatilho-dropdown-mobile" class="w-full flex items-center justify-between text-gray-400 hover:text-blue-50 text-left px-6 py-3">
+                        Minha conta
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div id="menu-dropdown-mobile" class="hidden pl-8">
+                         <a href="" class="block px-4 py-2 text-sm text-gray-400 hover:bg-purple-50">Meus pedidos</a>
+                        <a href="" class="block px-4 py-2 text-sm text-gray-400 hover:bg-purple-50">Configurações</a>
+                        <a href="" class="block px-4 py-2 text-sm text-gray-400 hover:bg-purple-50">Sair</a>
+                    </div>
+            </div>
+            <a href="" class="text-gray-400 hover:text-purple-600">Principal</a>
+             <a href="" class="text-gray-400 hover:text-purple-600">Favoritos</a>
+            <a href="" class="text-gray-400 hover:text-purple-600">Promoções</a>
+        </div>
+    </header>
+
+<main class="container mx-auto mb-8">
+    <section class="relative w-full max-w-4xl mx-auto rounded-lg shadow-xl">
+        <div id="carrossel-container" class="overflow-hidden rounded-lg">
+            <div id="carrossel-slides" class="flex transition-transform duration-500 ease-in-out">
+                <div class="slide-carrossel min-w-full h-80 text-white flex items-center justify-center">
+                    <img src="https://conteudo.solutudo.com.br/wp-content/uploads/2020/07/5416.jpg" alt="">
+                </div>
+                <div class="slide-carrossel min-w-full h-80 text-white flex items-center justify-center">
+                    <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/11/bomba-de-chocolate.jpg" alt="">
+                </div>
+                <div class="slide-carrossel min-w-full h-80 text-white flex items-center justify-center">
+                    <img src="https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/07/07/705403778-cupcake-de-chocolate-receita.jpg" alt="">
+                </div>
+            </div>
+
+<section class="mt-16 text-center">
+      <h2 class="text-3xl font-bold text-gray-800">Recomendados</h2>
+      <p class="text-gray-500 mb-8">Aproveite nossos melhores produtos</p>
+
+      <!-- Produto 1 -->
+      <div class="bg-white rounded-lg shadow-md flex flex-col md:flex-row mb-8 overflow-hidden">
+        <div class="md:w-1/2 flex flex-col justify-center p-8 text-left">
+          <h3 class="text-2xl font-bold text-purple-600 mb-4">Mini churros de doce de leite</h3>
+          <p class="text-gray-600 mb-4">
+            Feitos com todo carinho, nossos mini churros são uma verdadeira explosão de sabor! Cada um é preparado com massa leve e douradinha, frita até ficar crocante por fora e macia por dentro. O recheio é o destaque: 
+            um doce de leite cremoso, suave e com o equilíbrio perfeito entre doçura e textura.
+          </p>
+          <button
+            class="bg-purple-600 text-white px-6 py-2 rounded-md hover:bg-purple-700 transition">Saiba mais</button>
+        </div>
+        <div class="md:w-1/2">
+          <img src="https://compactaprint.com.br/wp-content/uploads/2024/09/Doces-caseiros-para-vender.jpg" alt="Tiramisu" class="object-cover w-full h-full">
+        </div>
+      </div>
+
+      <!-- Produto 2 -->
+      <div class="bg-white rounded-lg shadow-md flex flex-col md:flex-row overflow-hidden">
+        <div class="md:w-1/2">
+          <img src="https://cms-cdn.saipos.com/assets/2024/05/21/doces-saipos-sistema-para-restaurante-3_uid_664cf50ba8175.png" alt="Bolo de Chocolate" class="object-cover w-full h-full">
+        </div>
+        <div class="md:w-1/2 flex flex-col justify-center p-8 text-left">
+          <h3 class="text-2xl font-bold text-purple-600 mb-4">Dunuts</h3>
+          <p class="text-gray-600 mb-4">
+            UmFeitas com carinho e dedicação, nossas donuts são puro aconchego em forma de doce! 🍩✨
+            A massa é leve, macia e saborosa, preparada com ingredientes frescos e o tempo certo de fermentação para garantir aquele toque de padaria artesanal.
+          </p>
+          <button
+            class="bg-purple-600 text-white px-6 py-2 rounded-md hover:bg-purple-700 transition">Saiba mais</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-purple-800 mt-16 border-t">
+    <div
+      class="container mx-auto py-10 px-6 grid grid-cols-1 md:grid-cols-2 items-center text-center md:text-left gap-6">
+      <div>
+        <h3 class="text-white font-semibold mb-3">Contato</h3>
+        <p class="text-white flex justify-center md:justify-start items-center gap-2"><span>📍</span> Rua Imperio do Barreto, 625</p>
+        <p class="text-white flex justify-center md:justify-start items-center gap-2"><span>📞</span> (18) 66357-9253</p>
+        <p class="text-white flex justify-center md:justify-start items-center gap-2"><span>📧</span> barretoaçucarado@gmail.com</p>
+      </div>
+
+      <div class="flex flex-col items-center md:items-end">
+        <h3 class="text-white font-semibold mb-3">Siga-nos</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-500 hover:text-pink-600 text-2xl">💬</a>
+          <a href="#" class="text-gray-500 hover:text-pink-600 text-2xl">📸</a>
+        </div>
+      </div>
+    </div>
+    <p class="bg-purple-900 text-white text-center py-4 mt-10">© 2025 - Doçuras da vovó. Todos os direitos reservados.</p>
+  </footer>
+
+
+</body>
+</html>
